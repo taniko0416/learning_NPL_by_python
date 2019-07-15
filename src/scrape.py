@@ -1,8 +1,10 @@
 import re
 import unicodedata
+
 #fromは省略を定義
 from bs4 import BeautifulSoup
 
+#dict配列を辞書方を作成
 translation_table = str.maketrans(dict(zip('()!', ' () !')))
 
 def cleanse(text):
