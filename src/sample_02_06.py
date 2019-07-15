@@ -1,5 +1,5 @@
 import urllib.request
-import chardet
+import cchardet
 import scrape
 
 if __name__ == '__main__':
@@ -8,6 +8,6 @@ if __name__ == '__main__':
         byte = res.read()
         html = byte.decode(cchardet.detect(byte)['encoding'])
         text, title = scrape.scrape(html)
-        print('[title]:', title)
-        print('[text]:', text[:300])
+        print('[title]: ', title)
+        print('[text]:  ', text[:300])
         
