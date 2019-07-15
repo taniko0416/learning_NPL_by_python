@@ -29,7 +29,7 @@ def scrape(html):
         if len(block.text.strip()) > 0 and \
             block.text.strip()[-1] not in ['。', '！']:
             block.append('<__EOS__>')
-    
+            
     # joinは引数（配列）を連結する
     text = '\n'.join([cleanse(block.text.strip())
 
