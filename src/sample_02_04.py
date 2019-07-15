@@ -18,3 +18,6 @@ if __name__ == '__main__':
         for block in soup.find_all(['p','h1','h2','h3','h4']):
             print('[block]:', block.text)
             
+
+
+            
