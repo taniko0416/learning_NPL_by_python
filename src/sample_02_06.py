@@ -10,4 +10,3 @@ if __name__ == '__main__':
         text, title = scrape.scrape(html)
         print('[title]: ', title)
         print('[text]:  ', text[:300])
-        
