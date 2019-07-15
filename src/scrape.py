@@ -20,14 +20,20 @@ def cleanse(text):
 
 def scrape(html):
     soup = BeautifulSoup(html, 'html.parser')
+    
     # stripは引数を削除する（空白含む）
     # not in は指定した配列に引数の内容がない時にTrue
     if len(block.text.strip()) > 0 and \
             block.text.strip()[-1] not in ['。', '！']:
         block.append('<__EOS__>')
+    
+    # joinは引数（配列）を連結する
     text = '\n'.join([cleanse(block.text.strip())])
-        for block in soup.find_all(['p','h1','h2','h3','h4'])
+
+        # soup.find_allはタグの取得
+    for block in soup.find_all(['p','h1','h2','h3','h4'])
         if len(block.text.strip()) > 0])
     
     title = cleanse(soup.title.text.replace('- Wikipedia', ''))
+    
     return text,title
