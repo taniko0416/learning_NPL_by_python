@@ -9,3 +9,4 @@ translation_table = str.maketrans(dict(zip('()!', ' () !')))
 text = unicodedata.normalize('NFKC', text).translate(translation_table)
 text = re.sub(r'\s+', '', text)
 print('After:',text)
+
