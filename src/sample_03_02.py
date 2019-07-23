@@ -1,4 +1,4 @@
-import src.sqlitedatastore as datastore
+import sqlitedatastore as datastore
 
 if __name__ == '__main__':
     datastore.connect()

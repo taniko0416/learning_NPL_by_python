@@ -1,9 +1,11 @@
 import json
 import sqlite3
 
+# SQLiteの便利関数を作成
 conn = None
 
 def connect():
+    # global：グローバル変数にする
     global conn
     conn = sqlite3.connect('./sample.db')
 
@@ -23,12 +25,16 @@ def create_table():
         token BLOB
     )''' )
 
+# 一度に複数のSQL文を実行したいときは，タプルのリストを作成した上で
+# executemanyメソッドを実行する
+# commitで実行
 def load(values):
     conn.executemany(
         'INSERT INTO docs (content,meta_info) VALUES (?,?)',values
     )
     conn.commit()
 
+# {}hasatは辞書型
 def get(doc_id, fl):
     row_ls = conn.execute(
         'SELECT {} FROM docs WHERE id = ?'.format(','.join(fl)),
