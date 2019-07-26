@@ -31,10 +31,9 @@ def create_table():
 def load(values):
     conn.executemany(
         'INSERT INTO docs (content,meta_info) VALUES (?,?)',values
-    )
+)
     conn.commit()
 
-# {}hasatは辞書型
 def get(doc_id, fl):
     row_ls = conn.execute(
         'SELECT {} FROM docs WHERE id = ?'.format(','.join(fl)),
