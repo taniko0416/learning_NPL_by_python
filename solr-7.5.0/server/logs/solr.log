@@ -59,3 +59,16 @@
 2019-07-30 13:08:45.083 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1564492126703} status=0 QTime=0
 2019-07-30 13:08:45.115 INFO  (qtp296347592-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564492126703} status=0 QTime=31
 2019-07-30 13:08:45.177 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564492126703} status=0 QTime=47
+2019-07-31 05:13:15.516 INFO  (Thread-1) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@5fbf0aca{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-07-31 05:13:15.518 INFO  (Thread-1) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-07-31 05:13:15.542 INFO  (Thread-1) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1003292107
+2019-07-31 05:13:15.548 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-07-31 05:13:15.551 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@615091b8: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@3d8f2bb7
+2019-07-31 05:13:15.596 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-07-31 05:13:15.598 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@fcb4004: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@5a822f65
+2019-07-31 05:13:15.610 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-07-31 05:13:15.615 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1dd6d4b7: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@5a669691
+2019-07-31 05:13:15.626 INFO  (coreCloseExecutor-15-thread-1) [   x:doc] o.a.s.c.SolrCore [doc]  CLOSING SolrCore org.apache.solr.core.SolrCore@1a86fcf9
+2019-07-31 05:13:15.631 INFO  (coreCloseExecutor-15-thread-1) [   x:doc] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.doc, tag=1a86fcf9
+2019-07-31 05:13:15.632 INFO  (coreCloseExecutor-15-thread-1) [   x:doc] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@2a32f964: rootName = null, domain = solr.core.doc, service url = null, agent id = null] for registry solr.core.doc / com.codahale.metrics.MetricRegistry@3482a4a4
+2019-07-31 05:13:15.777 INFO  (Thread-1) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@385e9564{/solr,null,UNAVAILABLE}{/vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr-webapp/webapp}
