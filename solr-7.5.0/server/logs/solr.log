@@ -1,0 +1,74 @@
+2019-07-30 12:59:41.931 INFO  (main) [   ] o.e.j.u.log Logging initialized @2174ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-30 12:59:42.343 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03
+2019-07-30 12:59:42.403 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///vagrant/ubuntsu_share_folder/solr-7.5.0/server/contexts/] at interval 0
+2019-07-30 12:59:45.662 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-07-30 12:59:45.683 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-07-30 12:59:45.683 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-07-30 12:59:45.688 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-07-30 12:59:45.860 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-07-30 12:59:45.939 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-07-30 12:59:45.946 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.5.0
+2019-07-30 12:59:45.947 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-07-30 12:59:45.948 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /vagrant/ubuntsu_share_folder/solr-7.5.0
+2019-07-30 12:59:45.948 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-07-30T12:59:45.948Z
+2019-07-30 12:59:46.010 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr
+2019-07-30 12:59:46.019 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr/solr.xml
+2019-07-30 12:59:46.175 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@38364841, but no JMX reporters were configured - adding default JMX reporter.
+2019-07-30 12:59:48.141 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-07-30 12:59:48.146 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-07-30 12:59:48.537 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@38364841
+2019-07-30 12:59:48.547 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@38364841
+2019-07-30 12:59:48.566 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@38364841
+2019-07-30 12:59:48.911 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr
+2019-07-30 12:59:49.114 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@385e9564{/solr,file:///vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr-webapp/webapp/,AVAILABLE}{/vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr-webapp/webapp}
+2019-07-30 12:59:49.153 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@5fbf0aca{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-07-30 12:59:49.154 INFO  (main) [   ] o.e.j.s.Server Started @9399ms
+2019-07-30 12:59:54.415 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1564491595182} status=0 QTime=234
+2019-07-30 12:59:54.504 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564491595183} status=0 QTime=323
+2019-07-30 12:59:54.533 INFO  (qtp296347592-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564491595183} status=0 QTime=19
+2019-07-30 13:06:40.497 INFO  (qtp296347592-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=15
+2019-07-30 13:06:40.574 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2019-07-30 13:06:40.595 INFO  (qtp296347592-14) [   x:doc] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=doc&action=STATUS&wt=json} status=0 QTime=0
+2019-07-30 13:06:41.029 INFO  (qtp296347592-18) [   x:doc] o.a.s.h.a.CoreAdminOperation core create command name=doc&action=CREATE&instanceDir=doc&wt=json
+2019-07-30 13:06:41.234 INFO  (qtp296347592-18) [   x:doc] o.a.s.c.SolrResourceLoader [doc] Added 56 libs to classloader, from paths: [/vagrant/ubuntsu_share_folder/solr-7.5.0/contrib/clustering/lib, /vagrant/ubuntsu_share_folder/solr-7.5.0/contrib/extraction/lib, /vagrant/ubuntsu_share_folder/solr-7.5.0/contrib/langid/lib, /vagrant/ubuntsu_share_folder/solr-7.5.0/contrib/velocity/lib, /vagrant/ubuntsu_share_folder/solr-7.5.0/dist]
+2019-07-30 13:06:42.080 INFO  (qtp296347592-18) [   x:doc] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2019-07-30 13:06:42.526 INFO  (qtp296347592-18) [   x:doc] o.a.s.s.IndexSchema [doc] Schema name=default-config
+2019-07-30 13:06:44.130 INFO  (qtp296347592-18) [   x:doc] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-07-30 13:06:44.407 INFO  (qtp296347592-18) [   x:doc] o.a.s.c.CoreContainer Creating SolrCore 'doc' using configuration from instancedir /vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr/doc, trusted=true
+2019-07-30 13:06:44.435 INFO  (qtp296347592-18) [   x:doc] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.doc' (registry 'solr.core.doc') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@38364841
+2019-07-30 13:06:44.469 INFO  (qtp296347592-18) [   x:doc] o.a.s.c.SolrCore [[doc] ] Opening new SolrCore at [/vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr/doc], dataDir=[/vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr/doc/data/]
+2019-07-30 13:06:44.700 INFO  (qtp296347592-18) [   x:doc] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-07-30 13:06:45.842 INFO  (qtp296347592-18) [   x:doc] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-07-30 13:06:45.842 INFO  (qtp296347592-18) [   x:doc] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-07-30 13:06:45.861 INFO  (qtp296347592-18) [   x:doc] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-07-30 13:06:45.861 INFO  (qtp296347592-18) [   x:doc] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-07-30 13:06:45.910 INFO  (qtp296347592-18) [   x:doc] o.a.s.s.SolrIndexSearcher Opening [Searcher@16b8747a[doc] main]
+2019-07-30 13:06:45.953 INFO  (qtp296347592-18) [   x:doc] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr/doc/conf
+2019-07-30 13:06:45.995 INFO  (qtp296347592-18) [   x:doc] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-07-30 13:06:46.014 INFO  (qtp296347592-18) [   x:doc] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-07-30 13:06:46.039 INFO  (qtp296347592-18) [   x:doc] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-07-30 13:06:46.040 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@16b8747a[doc] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-07-30 13:06:46.043 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-07-30 13:06:46.044 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-07-30 13:06:46.054 INFO  (searcherExecutor-10-thread-1-processing-x:doc) [   x:doc] o.a.s.c.SolrCore [doc] Registered new searcher Searcher@16b8747a[doc] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-07-30 13:06:46.096 INFO  (qtp296347592-18) [   x:doc] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1640488769784119296
+2019-07-30 13:06:46.164 INFO  (qtp296347592-18) [   x:doc] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=doc&action=CREATE&instanceDir=doc&wt=json} status=0 QTime=5134
+2019-07-30 13:08:39.015 INFO  (qtp296347592-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1564492120590} status=0 QTime=0
+2019-07-30 13:08:39.038 INFO  (qtp296347592-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564492120591} status=0 QTime=21
+2019-07-30 13:08:39.082 INFO  (qtp296347592-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564492120591} status=0 QTime=40
+2019-07-30 13:08:45.083 INFO  (qtp296347592-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1564492126703} status=0 QTime=0
+2019-07-30 13:08:45.115 INFO  (qtp296347592-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564492126703} status=0 QTime=31
+2019-07-30 13:08:45.177 INFO  (qtp296347592-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1564492126703} status=0 QTime=47
+2019-07-31 05:13:15.516 INFO  (Thread-1) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@5fbf0aca{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2019-07-31 05:13:15.518 INFO  (Thread-1) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-07-31 05:13:15.542 INFO  (Thread-1) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1003292107
+2019-07-31 05:13:15.548 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-07-31 05:13:15.551 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@615091b8: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@3d8f2bb7
+2019-07-31 05:13:15.596 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-07-31 05:13:15.598 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@fcb4004: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@5a822f65
+2019-07-31 05:13:15.610 INFO  (Thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-07-31 05:13:15.615 INFO  (Thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1dd6d4b7: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@5a669691
+2019-07-31 05:13:15.626 INFO  (coreCloseExecutor-15-thread-1) [   x:doc] o.a.s.c.SolrCore [doc]  CLOSING SolrCore org.apache.solr.core.SolrCore@1a86fcf9
+2019-07-31 05:13:15.631 INFO  (coreCloseExecutor-15-thread-1) [   x:doc] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.doc, tag=1a86fcf9
+2019-07-31 05:13:15.632 INFO  (coreCloseExecutor-15-thread-1) [   x:doc] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@2a32f964: rootName = null, domain = solr.core.doc, service url = null, agent id = null] for registry solr.core.doc / com.codahale.metrics.MetricRegistry@3482a4a4
+2019-07-31 05:13:15.777 INFO  (Thread-1) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@385e9564{/solr,null,UNAVAILABLE}{/vagrant/ubuntsu_share_folder/solr-7.5.0/server/solr-webapp/webapp}

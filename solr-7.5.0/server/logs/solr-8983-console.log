@@ -1,0 +1,13 @@
+2019-07-30 12:59:41.931 INFO  (main) [   ] o.e.j.u.log Logging initialized @2174ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-07-30 12:59:42.343 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03
+2019-07-30 12:59:42.403 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///vagrant/ubuntsu_share_folder/solr-7.5.0/server/contexts/] at interval 0
+2019-07-30 12:59:45.662 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-07-30 12:59:45.683 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-07-30 12:59:45.683 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-07-30 12:59:45.688 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2019-07-30 12:59:45.860 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-07-30 12:59:45.939 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-07-30 12:59:45.946 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.5.0
+2019-07-30 12:59:45.947 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-07-30 12:59:45.948 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /vagrant/ubuntsu_share_folder/solr-7.5.0
+2019-07-30 12:59:45.948 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-07-30T12:59:45.948Z
